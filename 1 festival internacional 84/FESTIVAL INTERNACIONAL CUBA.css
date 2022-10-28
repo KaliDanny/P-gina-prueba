@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*HEADER*/
+#header-general{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 85px;
+    z-index: 100;
+    /*border: 1px solid #AA9F87;*/
+    /*box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.335);*/
+}
+#header-menu{
+    width: 69%;
+    height: 85px;
+    display: flex;
+    margin: 0 auto;
+}
+/*LOGO*/
+.logo img{
+    width: 65px;
+    height: 80px;
+}
+/*NAVEGACIÓN*/
+#nav{
+    display: flex;
+    margin: 0 auto;
+    margin-top: auto;
+}
+.ernesto ul{
+    list-style: none;
+    padding: 0 15px;
+    border-right: 1.8px solid #AA9F87 ;
+}
+.ernesto ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.diseño ul{
+    padding: 0 15px;
+    list-style: none;
+    border-right: 1.8px solid #AA9F87 ;
+}
+.diseño ul li a{
+    text-decoration: none;
+    color: black;
+}
+.obras ul{
+    padding: 0 15px;
+    list-style: none;
+    border-right: 1.8px solid #AA9F87 ;
+}
+.obras ul li a{
+    text-decoration: none;
+    color: black;
+}
+.exposiciones ul{
+    padding: 0 15px;
+    list-style: none;
+    border-right: 1.8px solid #AA9F87 ;
+}
+.exposiciones ul li a{
+    text-decoration: none;
+    color: black;
+}
+.referencias ul{
+    padding: 0 15px;
+    list-style: none;
+    border-right: 1.8px solid #AA9F87 ;
+}
+.referencias ul li a{
+    text-decoration: none;
+    color: black;
+}
+.contacto ul{
+    padding: 0 15px;
+    list-style: none;
+    border-right: 1.8px solid #AA9F87 ;
+}
+.contacto ul li a{
+    text-decoration: none;
+    color: black;
+}
+#nav a:hover{
+    color: #AA9F87;
+}
+/*REDES*/
+#redes{
+    padding: 2.5px 5px;
+    width: 100px;
+    height: 20px;
+    margin-top: auto;
+    display: flex;
+}
+#redes img{
+    margin: auto 2.4px;
+}
+.instagram img{
+    height: 15px;
+    width: 15px;
+}
+.facebook img{
+    height: 15px;
+    width: 15px;
+}
+.youtube img{
+    height: 15px;
+    width: 15px;
+}
+.linkedin img{
+    height: 15px;
+    width: 15px;
+}
+.correo img{
+    height: 15px;
+    width: 15px;
+}
+/*Sub menu*/
+.sub-menu{
+    background: rgb(255, 255, 255);
+    position: fixed;
+    width: 120px;
+    height: 350px;
+    margin: 90px 0px;
+    z-index: 50;
+    /*box-shadow: 5px 5px 8px rgba(128, 128, 128, 0.335);*/
+}
+.sub-menu li{
+    padding: 10px 2.5px;
+    display: flex;
+    overflow: hidden;
+}
+.sub-menu li a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #000000cd;
+    display: inline;
+    text-align: left;
+}
+.sub-menu li a:hover,
+.sub-menu li a.active{
+    border-left: 3px solid rgb(2, 2, 2);
+}
+/*SECCIÓN GALERIA*/
+.carrusel {
+    position: absolute;
+    margin-top: 90px;
+    display: flex;
+    margin-left: 175px;
+    width: 1000px;
+    height: 500.5px;
+}
+.carrusel-fotos-grandes{
+    margin-left: 25%;
+}
+.carrusel ul {
+    overflow: auto;
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    overflow: hidden;
+}
+.carrusel-fotos {
+    display: flex;
+    object-fit: contain;
+}  
+.carrusel-fotos img {
+    width: 500px;
+    height: 500px;
+}
+.carrusel-fotos-menu{
+    margin-left: 15px;
+}
+.carrusel-menu li a img{
+    height: 50px;
+    width: 50px;
+}
+/*Footer*/
+#pie-pagina{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    list-style: none;
+}
+#general{
+    width: 69%;
+    margin: 0 auto;
+    display: flex;
+    height: 60px;
+}
+.icon{
+    width: 45px;
+    height: 60px;
+}
+.footer{
+    border-right: 1.8px solid #AA9F87;
+    display: block;
+    padding: 20px 40px;
+    text-align: left;
+}
+.footer li{
+    font-size: 0.6rem;
+}
+.footer li a{
+    color: #110011;
+    font-size: 0.6rem;
+    text-decoration: none;
+}
+.grupo-2{
+    background-color: #fbfbfb;
+    padding: 15px 10px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+.grupo-2 small{
+    font-size: 9px;
+}

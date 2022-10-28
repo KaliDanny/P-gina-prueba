@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/*HEADER*/
+#header-general{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.335);
+    z-index: 100;
+}
+#header-menu{
+    width: 69%;
+    height: 85px;
+    display: flex;
+    margin: 0 auto;
+}
+/*LOGO*/
+.logo img{
+    width: 65px;
+    height: 80px;
+}
+/*NAVEGACIÓN*/
+#nav{
+    display: flex;
+    margin: 0 auto;
+    margin-top: auto;
+}
+.ernesto ul{
+    list-style: none;
+    padding: 0 15px;
+    border-right: 1.8px solid #AA9F87 ;
+}
+.ernesto ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.diseño ul{
+    padding: 0 15px;
+    list-style: none;
+    border-right: 1.8px solid #AA9F87 ;
+}
+.diseño ul li a{
+    text-decoration: none;
+    color: black;
+}
+.obras ul{
+    padding: 0 15px;
+    list-style: none;
+    border-right: 1.8px solid #AA9F87 ;
+}
+.obras ul li a{
+    text-decoration: none;
+    color: black;
+}
+.exposiciones ul{
+    padding: 0 15px;
+    list-style: none;
+    border-right: 1.8px solid #AA9F87 ;
+}
+.exposiciones ul li a{
+    text-decoration: none;
+    color: black;
+}
+.referencias ul{
+    padding: 0 15px;
+    list-style: none;
+    border-right: 1.8px solid #AA9F87 ;
+}
+.referencias ul li a{
+    text-decoration: none;
+    color: black;
+}
+.contacto ul{
+    padding: 0 15px;
+    list-style: none;
+    border-right: 1.8px solid #AA9F87 ;
+}
+.contacto ul li a{
+    text-decoration: none;
+    color: black;
+}
+#nav a:hover{
+    color: #AA9F87;
+}
+/*REDES*/
+#redes{
+    padding: 2.5px 5px;
+    width: 100px;
+    height: 20px;
+    margin-top: auto;
+    display: flex;
+}
+#redes img{
+    margin: auto 2.4px;
+}
+.instagram img{
+    height: 15px;
+    width: 15px;
+}
+.facebook img{
+    height: 15px;
+    width: 15px;
+}
+.youtube img{
+    height: 15px;
+    width: 15px;
+}
+.linkedin img{
+    height: 15px;
+    width: 15px;
+}
+.correo img{
+    height: 15px;
+    width: 15px;
+}
+/*Primera Sección*/
+.contenedor{
+    position: relative;
+    height: calc(100vh - 85px);
+    overflow: hidden;
+    margin: 0px 0;
+    z-index: 10;
+}
+.parallax{
+    position: absolute;
+    width: 100%;
+    background-image: url(images/fondo\ 1.png);
+    background-size: cover;
+    height: 150vh;
+    z-index: -1;
+}
+.titulo{
+    color: rgb(0, 0, 0);
+    font-size: 2.5em;
+    text-align: left;
+    margin-top: 250px;
+    padding: 50px 5px 5px 25px;
+}
+.sec {
+    position: relative;
+    padding: 150px 100px;
+    text-align: left;
+    height: 450px;
+    font-family: Helvetica;
+}
+.sec h1{
+    font-size: 2rem;
+    padding: 5px 5px 5px 0px;
+
+}
+.sec h2{
+    font-size: 1rem;
+    padding: 5px 5px 5px 0px;
+}
+.sec div{
+    font-size: 1.05rem;
+    padding: 25px 50px 50px 50px;
+}
+/*Segunda Sección*/
+.contenedor1{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.parallax1{
+    position: absolute;
+    width: 100%;
+    background-image: url(images/fondo\ 2.1.png);
+    background-size: cover;
+    height: 180vh;
+    z-index: -1;
+}
+.titulo1{
+    color: white;
+    font-size: 2.5em;
+    text-align: left;
+    margin-top: 15px;
+    padding: 25px 5px 5px 25px;
+}
+/*Tercera Sección*/
+
+.contenedor2{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.parallax2{
+    position: absolute;
+    width: 100%;
+    background-image: url(images/fondo\ 3.png);
+    background-size: cover;
+    height: 225vh;
+    z-index: -1;
+}
+.titulo2{
+    color: white;
+    font-size: 2.5em;
+    text-align: left;
+    margin-top: 150px;
+    padding: 5px 5px 5px 25px;
+}
+/*Cuarta Sección*/
+.contenedor3{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.parallax3{
+    position: absolute;
+    width: 100%;
+    background-image: url(images/fondo\ 4.png);
+    background-size: cover;
+    height: 150vh;
+    z-index: -1;
+}
+.titulo3{
+    color: white;
+    font-size: 2.5em;
+    text-align: left;
+    margin-top: 10px;
+    padding: 5px 5px 5px 25px;
+}
+
+/*Footer*/
+#pie-pagina{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+#pie{
+    width: 68.9%;
+    height: 60px;
+    display: flex;
+    margin: 0 auto;
+}
+/*LOGO*/
+.img img{
+    width: 45px;
+    height: 60px;
+}
+.info{
+    display: flex;
+    margin: 0 auto;
+    margin-top: auto;
+    font-size: 0.7rem;
+}
+.sitio li{
+    list-style: none;
+    font-size: 12px;
+    padding: 0 18px;
+    font-size: 0.6rem;
+}
+/*SITIOS WEB*/
+.sitios-web li{  
+    list-style: none;
+    padding: 0 18px;
+}
+.sitios-web li a{
+    color: black;
+    text-decoration: none;
+}
+.creacion-sitio li{
+    list-style: none;
+    font-size: 12px;
+    padding: 0 8px;
+    font-size: 0.6rem;
+}
+.derechos-reservados{
+    padding: 0 18px;
+    color: rgb(0, 0, 0);
+}
+.derechos-reservados small{
+    font-size: 10px;
+}
+.barra{
+    font-size: 20px;
+}
+.barra li{
+    list-style: none;
+    color: #AA9F87
+}
